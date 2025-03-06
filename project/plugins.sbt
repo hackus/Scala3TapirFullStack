@@ -1,0 +1,6 @@
+addSbtPlugin("org.scalameta" % "sbt-scalafmt" % "2.4.6")
+addSbtPlugin("org.portable-scala" % "sbt-scalajs-crossproject" % "1.3.2")
+addSbtPlugin("org.scalablytyped.converter" % "sbt-converter" % "1.0.0-beta44")
+addSbtPlugin("org.scala-js" % "sbt-scalajs" % "1.18.1")
+addSbtPlugin("com.softwaremill.sttp.tapir" % "sbt-openapi-codegen" % "1.11.15")
+addSbtPlugin("net.virtual-void" % "sbt-dependency-graph" % "0.9.2")

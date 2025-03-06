@@ -1,0 +1,5 @@
+[info] welcome to sbt 1.10.7 (Eclipse Adoptium Java 17.0.8.1)
+[info] loading settings for project scala3tapirfullstack-build from plugins.sbt...
+[info] loading project definition from D:\projects\scala\Scala3TapirFullStack\project
+[error] Type error in expression
+[warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)

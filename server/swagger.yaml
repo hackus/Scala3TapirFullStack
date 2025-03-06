@@ -1,0 +1,49 @@
+openapi: 3.1.0
+info:
+  title: My App
+  version: '1.0'
+paths:
+  /hello/world:
+    get:
+      operationId: getHelloWorld
+      parameters:
+        - name: name
+          in: query
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: ''
+          content:
+            text/plain:
+              schema:
+                type: string
+        '400':
+          description: 'Invalid value for: query parameter name'
+          content:
+            text/plain:
+              schema:
+                type: string
+  /double:
+    post:
+      operationId: postDouble
+      requestBody:
+        content:
+          text/plain:
+            schema:
+              type: string
+        required: true
+      responses:
+        '200':
+          description: ''
+          content:
+            text/plain:
+              schema:
+                type: string
+        default:
+          description: ''
+          content:
+            text/plain:
+              schema:
+                type: string
